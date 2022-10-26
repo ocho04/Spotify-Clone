@@ -1,5 +1,6 @@
 *{
     border: 2px solid red;
+
     margin-top: 0px;
 }
 
@@ -41,14 +42,38 @@
 
 p {
     font-size: 16px;
+    padding: 10px;
 }
 
-.top-input{
+.input-field{
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    border: 20px;
 }
+button {
+    height: 50px;
+    width: 145px;
+    background-color: #428f78;
+    color: aliceblue;
+}
+input {
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+}
+/*
 
+.top-input {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
