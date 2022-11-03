@@ -73,15 +73,26 @@ input {
     text-align: center;
 }
 
-.mid-copy-one{
-    height: 500px;
+.third-container{
+    height: 600px;
     position: relative;
     border: 3px solid blue;
     background-color: white;
 }
+.mid-copy-one {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 20px;
+}
 #mid-copy{
+    height: 500px;
+    width: 550px;
     font-size: 60px;
-    padding: 30px;
+    padding: 1px;
     text-align: justify left;
 
 }
