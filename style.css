@@ -45,6 +45,17 @@ p {
     padding: 10px;
 }
 
+.top-input {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
 .input-field{
     display: inline-block;
     /*
@@ -100,16 +111,5 @@ input {
     font-size: 60px;
     padding: 1px;
     text-align: justify left;
-
-}
-
-.top-input {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 
 }
