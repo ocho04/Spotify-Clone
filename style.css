@@ -46,14 +46,18 @@ p {
 }
 
 .input-field{
+    display: inline-block;
+    /*
     margin: 0;
     position: absolute;
     top: 45%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border: 20px;
+    border: 20px;*/
+
 }
+
 button {
     height: 50px;
     width: 145px;
@@ -64,6 +68,8 @@ input {
     height: 35px;
     width: 200px;
     padding: 5px;
+    margin-right: auto;
+    
 }
 .cta {
     color: white;
@@ -96,7 +102,6 @@ input {
     text-align: justify left;
 
 }
-/*
 
 .top-input {
     color: white;
